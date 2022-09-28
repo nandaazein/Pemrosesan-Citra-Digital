@@ -15,6 +15,8 @@ Difana Nanda Pridhasila Zein
 ## **Penulisan menggunakan package image**
 <p align="center"><img src="img/editor.png"></p>
 
+<p align="justify">Dalam sebuah gambar yang diproses terdapat 3 lapisan layer, untuk layer pertama aberwarna merah, layer kedua berwarna hijau dan layer yang terakhir berwarna biru.</p>
+
 ## **Citra Red**
 <p align="center"><img src="img/red.png"></p>
 
