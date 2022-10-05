@@ -71,10 +71,77 @@ Contoh : menggunakan 4 x 4 font biner, maka banyaknya pola didapat adalah 17 pol
 
 <p align="justify">Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra. Dalam proses ini dibutuhkan suatu nilai batas yang disebut nilai threshold. Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi hitam (0) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi putih (1).</p>
 
-<p align="justify">Umumnya nilai Treshold(T) dihitung dengan menggunakan persamaan :
+<p align="justify">Umumnya nilai Treshold(T) dihitung dengan menggunakan persamaan :</p>
+
+<center><b>T = fmaks + fmin / 2</b></center>
+
+<p align="justify">Dimana fmaks adalah nilai intensitas maksimum pada citra dan fmin adalah nilai intensitas minimun pada citra.</p>
+
+<center><b>f(x,y) = 255, jika f(x,y) ≥ T</b></center>
+<center><b>f(x,y) = 0, jika f(x,y) < T </b></center>
+
+Sebagai contoh misalnya diketahui citra grayscale 4x4 pixel
+
+<table>
+<tr>
+<td>200</td>
+<td>230</td>
+<td>150</td>
+<td>75</td>
+</tr>
+<tr>
+<td>240</td>
+<td>50</td>
+<td>170</td>
+<td>92</td>
+</tr>
+<tr>
+<td>210</td>
+<td>100</td>
+<td>120</td>
+<td>80</td>
+</tr>
+<tr>
+<td>100</td>
+<td>90</td>
+<td>200</td>
+<td>230</td>
+</tr>
+</table>
 
 
+Dengan menggunakan persamaan ini, nilai treshold T didapatkan sebagai berikut :
 
+<center><b> T = 240 + 50 / 2 = 145</b></center>
+
+<p align="justify">Bila nilai T = 145 diterapkan untuk citra pada Gambar di atas maka diperoleh citra seperti : </p>
+
+<table>
+<tr>
+<td>Hitam</td>
+<td>Hitam</td>
+<td>Hitam</td>
+<td>Putih</td>
+</tr>
+<tr>
+<td>Hitam</td>
+<td>Putih</td>
+<td>Hitam</td>
+<td>Putih</td>
+</tr>
+<tr>
+<td>Hitam</td>
+<td>Putih</td>
+<td>Putih</td>
+<td>Putih</td>
+</tr>
+<tr>
+<td>Putih</td>
+<td>Putih</td>
+<td>Hitam</td>
+<td>Hitam</td>
+</tr>
+</table>
 
 
 ## **Mengapa hasil dithering dengan matriks 2x2 tidak sebagus yang lebih besar yaitu 16x16**
