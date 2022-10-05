@@ -54,7 +54,7 @@ Dithering juga merupakan salah satu cara untuk menghasilkan gambar halftoning. T
 
 <br>
 
-## Cara menentukan pola yang ada pada Patterning dan Dithering
+## **Cara menentukan pola yang ada pada Patterning dan Dithering**
 
 - **Patterning**
 <p align="justify">Untuk menentukan banyaknya pola pada patterning kita bisa mengetahui secara langsung dengan menghitung banyaknya font biner atau pattern pengganti terlebih dahulu kemudian ditambahkan dengan 1.</p>
@@ -66,5 +66,23 @@ Contoh : menggunakan 4 x 4 font biner, maka banyaknya pola didapat adalah 17 pol
 <p align="center"><img src="img/pat1.png"></p>
 
 - **Dithering**
+
+## **Cara menentukan matriks treshold pada dithering**
+
+<p align="justify">Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra. Dalam proses ini dibutuhkan suatu nilai batas yang disebut nilai threshold. Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi hitam (0) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi putih (1).</p>
+
+<p align="justify">Umumnya nilai Treshold(T) dihitung dengan menggunakan persamaan :
+
+
+
+
+
+## **Mengapa hasil dithering dengan matriks 2x2 tidak sebagus yang lebih besar yaitu 16x16**
+
+<p align="jutify"> Perbedaan antara keluaran yang dihasilkan antara citra  menggunakan  4x4  matriks dithering dan  16x16 matriks dithering terletak pada sensitifitas nilai piksel aslinya. Citra yang dihasilkan dari penggunaaan matriks 4x4 memiliki pola halftone yang kurang dibandingkan dengan citra yang diproses menggunakan matriks dithering 16x16. Karena itu hasil dari citra dengan 4x4 matriks dithering memiliki  banyak  daerah  dengan  pola  yang  sama, sehingga hasil yang ditampilkan menjadi kurang baik dibandingkan dithering dengan matriks 16x16.</p>
+
+
+
+
 
 
