@@ -53,3 +53,17 @@
 <p align="justify">Dilakukan jika kita memiliki beberapa citra yang bergambar sama, namun semua citra mempunyai noise (gangguan). Noise satu citra berbeda dengan noise citra lainnya tidak berkorelasi, cara memperbaikinya adalah dengan melakukan operasi rata-rata terhadap semua citra tersebut.</p>
 
 
+# **Mask Processing**
+
+<p align="justify">Jika pada point processing kita hanya melakukan operasi terhadap masing-masing pixel, maka pada mask processing kita melakukan operasi terhadap suatu jendela ketatanggan pada citra.</p>
+<p align="center">Kemudia kita menerapkan (mengkonvulasikan) suatu maks terhadap jendela tersebut, mask juga sering disebut <b>filter.</p>
+
+<p align="center"><img src="img/mp.png"></p>
+
+<p align="justify">Contoh : jendela ketetanggan 3x3, nilai pixel pada posisi x dipengaruhi oleh nilai tetangganya. Perbedaan dengan point processing, pada point processing nilai suatu pixel tidak dipengaruhi oleh nilai tetangganya sedangkan pada mask processing nilai pixel dipengaruhi oleh tetangganya.</p>
+
+### **Jenis-jenis filter spasial**
+
+- Smoothing filters : lowspass filter dan median filter.
+
+- Sharpening filter.
