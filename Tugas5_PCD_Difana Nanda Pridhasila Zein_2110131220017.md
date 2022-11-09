@@ -55,3 +55,23 @@ Data yang disembunyikan dapat berupa:
 <p align="justify">Jika dilihat secara langsung, tidak ada perbedaan yang cukup mencolok antara citra yang belum disisipi pesan dan citra yang sudah disisipi pesan.</p>
 
 <p align="justify">Untuk melihat pesan rahasia yang sudah disisipkan dalam sebuah citra kita bisa menggunakan</p>
+
+<p><h1><center><b>EKSPERIMEN TUKAR GAMBAR</b></center></h1></p>
+
+<p align="center">Citra Iif Alifah</p>
+
+<p align="center"><img src="img/iif.jpg"></p>
+
+<p align="center">Citra Sopia Refaldi</p>
+
+<p align="center"><img src="img/faldi.jpeg"></p>
+
+<p align="center">Code untuk menggabungkan beberapa citra</p>
+
+<p align="center"><img src="img/cdgabung.png"></p>
+
+<p align="center">Bit Plane Slicing dari 2 citra yang digabungkan</p>
+
+<p align="center"><img src="img/hasil.png"></p>
+
+
