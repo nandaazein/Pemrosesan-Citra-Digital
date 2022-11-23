@@ -1,3 +1,14 @@
+#### **Kelompok 2**
+
+- Difana Nanda Pridhasila Zein
+
+- Risalatul Husna
+
+- Rapiyah Hawa Nur 
+
+- Ahmad Adieb Ibrahim 
+
+
 # **LOW PASS FILTERING**
 
 <p align="justify"><b>Low Pass Filtering (LPF)</b> : Proses filter yang melewatkan komponen citra dengan nilai intensitas yang rendah dan meredam komponen citra dengan nilai intensitas yang tinggi. Low Pass Filter disebut juga smoothing filter yang merupakan salah satu metode untuk menghilangkan noise acak, noise berkala, dan menampilkan pola latar belakang. 
@@ -14,6 +25,14 @@
 - Tinggi dan lebar kernel ganjil, jika tidak bernilai ganjil maka piksel pusat tidak bisa ditemukan.
 
 - Bobot dalam kernel bersifat simetris terhadap piksel pusat
+
+### **Manual Low Pass Filtering**
+
+### **Octave Low Pass Filtering**
+
+<center><img src="img/lowman1.png"></center>
+<center><img src="img/lowman2.png"></center>
+
 
 
 # **HIGH PASS FILTERING**
@@ -39,3 +58,10 @@
 - Apabila jumlah koefisiennya berjumlah = 0, maka setiap elemen yang rendah frekuensinya nilainya akan menurun. 
 
 - Namun, apabila total dari koefisien adalah = 1, maka elemen yang memiliki frekuensi rendah nilainya tetap sama dengan nilai semula
+
+### **Manual High Pass Filtering**
+
+### **Octave High Pass Filtering**
+
+<center><img src="img/highman1.png"></center>
+<center><img src="img/highman2.png"></center>
