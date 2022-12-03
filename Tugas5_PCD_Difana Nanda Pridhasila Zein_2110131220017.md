@@ -56,6 +56,10 @@ Data yang disembunyikan dapat berupa:
 
 <p align="justify">Untuk melihat pesan rahasia yang sudah disisipkan dalam sebuah citra kita bisa menggunakan</p>
 
+<center><img src="img/rahasia.png"></center>
+
+<center><img src="img/rahasia2.png"></center>
+
 <p><h1><center><b>EKSPERIMEN TUKAR GAMBAR</b></center></h1></p>
 
 <p align="center">Citra Iif Alifah</p>
