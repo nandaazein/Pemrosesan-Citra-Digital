@@ -117,3 +117,10 @@ Sutu titik (x, y) dapat dikatakan sebagai tepi jika terjadi perubahan nilai inte
 <p align="center"><img src="img/ed.png"></p>
 
 <p align="center"><img src="img/ed1.png"></p>
+
+2. Edge Detection secara manual (Sobel)
+
+<p align="center"><img src="img/egman.png"></p>
+
+<p align="center"><img src="img/eg1.png"></p>
+
