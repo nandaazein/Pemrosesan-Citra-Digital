@@ -153,4 +153,55 @@ Risalatul Husna (2110131120008)<br><br>
 <p align="center"><img src="img/B16.PNG"></p>
 <p align = "center">Output Kode Program</p>
 
+# Implementasi High Boost Filtering
+
+<p align="justify" >High-Boost Filtering merupakan salah satu bagian dari operasi yang dapat dilakukan untuk melakukan perbaikan citra.
+
+High-Boost Filtering bertujuan untuk menekankan komponen frekuensi tinggi yang mewakili detail gambar tanpa menghilangkan komponen frekuensi rendah (seperti sharpening). Filter high boost dapat digunakan untuk mengubah komponen frekuensi tinggi.</p>
+
+1. High Boost Filtering menggunakan fungsi
+
+<p align="center"><img src="img/hbf.png"></p>
+
+<p align="center"><img src="img/hbf1.png"></p>
+
+
+# Implementasi Median Filtering
+
+<p align="justify">Median filtering adalah teknik penyaringan digital nonlinear, yang sering digunakan untuk menghilangkan noise. Penyaringan median sangat banyak digunakan dalam pemrosesan gambar digital karena mempertahankan tepi sambil menghilangkan noise.
+
+Penerapan dari median filtering dapat berupa untuk peningkatan kualitas citra gambar yang mengalami penurunan mutu citra, misalnya karena mengandung cacat atau derau (noise). Contohnya adalah bintik hitam atau putih yang muncul secara acak yang tidak diinginkan di dalam citra. bintik acak ini disebut dengan derau (noise) salt & pepper/</p>
+
+1. Median Filtering menggunakan fungsi
+
+<p align="center"><img src="img/medfunc.png"></p>
+
+<p align="center"><img src="img/med1.png"></p>
+
+2. Median Filtering secara manual
+
+<p align="center"><img src="img/medman.png"></p>
+
+<p align="center"><img src="img/medman1.png"></p>
+
+
+# Implementasi Edge Detection
+
+<p align="justify">Deteksi tepi (edge detection) pada suatu citra adalah suatu pendekatan untuk memeroleh tepi-tepi/garis batas dari objek di dalam citra tersebut. Tepi objek bermanfaat untuk segmentasi, registrasi, dan identifikasi antar objek pada citra.
+
+Sutu titik (x, y) dapat dikatakan sebagai tepi jika terjadi perubahan nilai intensitas derajat keabuan (grayscale) yang tinggi dalam jarak yang dekat dengan tetangganya.</p>
+
+1. Edge Detection menggunakan fungsi
+
+<p align="center"><img src="img/ed.png"></p>
+
+<p align="center"><img src="img/ed1.png"></p>
+
+2. Edge Detection secara manual (Sobel)
+
+<p align="center"><img src="img/egman.png"></p>
+
+<p align="center"><img src="img/eg1.png"></p>
+
+
 
