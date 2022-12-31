@@ -86,6 +86,13 @@ High-Boost Filtering bertujuan untuk menekankan komponen frekuensi tinggi yang m
 
 <p align="center"><img src="img/hbf1.png"></p>
 
+2. High Boost Filtering secara manual
+
+<p align="center"><img src="img/bo1.png"></p>
+
+<p align="center"><img src="img/bo2.png"></p>
+
+<p align="center"><img src="img/bo3.png"></p>
 
 # Implementasi Median Filtering
 
